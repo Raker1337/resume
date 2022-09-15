@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Roboto&display=swap');
+body {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
+    /* background: #E6E6FA; */
+    color: #0f141e
+}
+
+body,
+html {
+    /* max-width: 750px; */
+    display: flex;
+    justify-content: center;
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -5;
+    top: 0;
+    left: 0
+}
+
+
+/* canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    vertical-align: bottom;
+    z-index: 0;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #3a3e47;
+    z-index: -2;
+} */
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    background: #F5F5F5;
+    transition: all .6s;
+}
+
+.info:hover {
+    transform: scale(1.1);
+}
+
+.info-text {
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info p {
+    margin: 0;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.bg-skill {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: #000;
+    transition: all .6s;
+    color: white;
+}
+
+.bg-skill ul {
+    color: white;
+}
+
+.bg-skill:hover {
+    transform: scale(1.1);
+}
+
+.bg-one {
+    background: #D3D3D3;
+    transition: all .6s;
+}
+
+.bg-one:hover {
+    transform: scale(1.1);
+}
+
+.bg-two {
+    background: black;
+    transition: all .6s;
+}
+
+.bg-two:hover {
+    transform: scale(1.1);
+}
+
+.photo {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    /* transition: all .6s; */
+    margin: auto;
+    display: block;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    /* font-size: 1.3rem; */
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    color: white;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #fff;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.exp {
+    color: white;
+}
+
+.form {
+    background: #F5F5F5;
+    transition: all .6s;
+}
+
+.form:hover {
+    transform: scale(1.1);
+}
+
+
+/* .end {
+    position: absolute;
+    margin-left: 45px;
+    text-align: center;
+    color: red;
+} */
+
+.mp3 {
+    margin-left: 250px;
+}
